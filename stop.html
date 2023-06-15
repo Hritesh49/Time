@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+
+    <link rel="stylesheet" href="stop.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="openmenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainmenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="timer.html" class="nav-link">Timer</a></li>
+                <li><a href="stop.html" class="nav-link">Stop Watch</a></li>
+                <div class="closemenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+    </header>
+    <section class="overlay">
+        <div class="stopwatch">
+            <h1>Stop Watch</h1>
+            <div class="circle">
+                <span class="time" id="display">00:00:00</span>
+            </div>
+            <div class="control">
+                <button class="btn play">
+                    <p id="playButton">Start</p>
+                    <p id="pauseButton">Stop</p>       
+                </button>
+                <button class="btn reset">
+                    <p id="resetButton">Reset</p>
+                </button>
+            </div>
+        </div>
+        <div class="clock">
+            <img src="gallery/clock3.png" alt="Clock">
+        </div>
+    </section>
+    <script src="stop.js"></script>
+
+    <div class="word">
+        <p>Act Fast!</p>
+    </div>
+
+</body>
+
+</html>
